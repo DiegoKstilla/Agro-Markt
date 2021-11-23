@@ -3,4 +3,26 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcomeAppIntro">"¡Bienvenidos a la aplicación Agro-Markt! Esta aplicación fue diseñada específicamente para los campesinos y pequeños productores que no tienen recursos para establecer su propio local físico para la venta de sus productos. Con la aplicación Agro-Markt podrán crear su tienda electrónica, informar a sus clientes que productos están disponibles para a la venta y acordar la forma de entrega y pago. El objeto de Agro-Markt es convertirse en un medio fácil de usar para que los campesinos y pequeños productores del país puedan mediante la creación de una cuenta, subida de fotos de los productos y estableciendo precios puedan empezar a vender sus productos lo mas fácil y rapido posible. "</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="subtitle">Inicia sesion y comienza a buscar y vender productos agropecuarios</string>
+    <string name="email">Email</string>
+    <string name="PasswordIntro">Password</string>
+    <string name="btnLogin">Iniciar sesion</string>
+    <string name="newUserString">Crea un usuario nuevo</string>
+    <string name="welcomeAppNewUser">Crea una cuenta y comienza a buscar, comprar y vender productos agropecuarios. Ingresa los siguientes datos:</string>
+    <string name="nameSignIn">Nombre</string>
+    <string name="lastNameSignIn">Apellido</string>
+    <string name="IDSignIn">Cédula</string>
+    <string name="btnSignIn">Crear cuenta</string>
 </resources>

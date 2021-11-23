@@ -1,4 +1,4 @@
-package com.example.agro_markt
+package com.example.agro_markt.view.ui.activities
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.agro_markt.R
 import com.example.agro_markt.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
