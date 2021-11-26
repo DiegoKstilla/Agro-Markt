@@ -10,9 +10,10 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="fragment_horizontal_margin">16dp</dimen>
     <dimen name="fragment_vertical_margin">16dp</dimen>
-    <dimen name="DefaultLayoutMargin">22dp</dimen>
+    <dimen name="DefaultLayoutMargin">20dp</dimen>
     <dimen name="textMedium">20sp</dimen>
     <dimen name="icon_signInLayoutMargin">6dp</dimen>
     <dimen name="signInEdit">15dp</dimen>
     <dimen name="textSmall">15sp</dimen>
+    <dimen name="redirectLogin">10sp</dimen>
 </resources>

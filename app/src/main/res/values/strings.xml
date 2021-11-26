@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Agro-Markt</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Principal</string>
+    <string name="title_dashboard">Productos</string>
+    <string name="title_notifications">Notificaciones</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="welcomeAppIntro">"¡Bienvenidos a la aplicación Agro-Markt! Esta aplicación fue diseñada específicamente para los campesinos y pequeños productores que no tienen recursos para establecer su propio local físico para la venta de sus productos. Con la aplicación Agro-Markt podrán crear su tienda electrónica, informar a sus clientes que productos están disponibles para a la venta y acordar la forma de entrega y pago. El objeto de Agro-Markt es convertirse en un medio fácil de usar para que los campesinos y pequeños productores del país puedan mediante la creación de una cuenta, subida de fotos de los productos y estableciendo precios puedan empezar a vender sus productos lo mas fácil y rapido posible. "</string>
+    <string name="welcomeAppIntro">"¡Bienvenidos a la aplicación Agro-Markt! Esta aplicación fue diseñada específicamente para los campesinos y pequeños productores que no tienen recursos para establecer su propio local físico para la venta de sus productos. Con la aplicación Agro-Markt podrán crear su tienda electrónica, informar a sus clientes que productos están disponibles para a la venta y acordar la forma de entrega y pago. El objeto de Agro-Markt es convertirse en un medio fácil de usar para que los campesinos y pequeños productores del país puedan mediante la creación de una cuenta, subida de fotos de los productos y estableciendo precios empiezen a vender sus productos lo mas rapido y sencillo posible. "</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -25,4 +25,17 @@
     <string name="lastNameSignIn">Apellido</string>
     <string name="IDSignIn">Cédula</string>
     <string name="btnSignIn">Crear cuenta</string>
+    <string name="search">Buscar</string>
+    <string name="userNavMenu">Cuenta</string>
+    <string name="alreadyAccount">¿Ya tienes una cuenta?</string>
+    <string name="redirectLogin">¡Inicia sesion aqui!</string>
+    <string name="noAccountYet">¿Aun no tienes una cuenta?</string>
+    <string name="signInRedirect">Crea una aqui</string>
+    <string name="accountMenu">Cuenta</string>
+    <string name="publishText">Publicar</string>
+    <string name="publishMenu">Publicar</string>
+    <string name="welcomeAccount">Bienvenido, ________</string>
+    <string name="accountName">Nombre: </string>
+    <string name="socialReason">Razón Social: </string>
+    <string name="storeGrade">Calificacion de vendedor: </string>
 </resources>

@@ -15,4 +15,10 @@
         <!-- <item name="windowNoTitle">true</item> USAR ESO PARA QUITAR EL TITULO DE LA APP-->
 
     </style>
+
+    <style name="Text_account">
+        <item name="android:textColor">@color/primaryLightColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/rubik_variablefont_wght</item>
+    </style>
 </resources>
