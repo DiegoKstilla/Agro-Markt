@@ -21,4 +21,9 @@
         <item name="android:textStyle">bold</item>
         <item name="fontFamily">@font/rubik_variablefont_wght</item>
     </style>
+
+    <style name="No_ActionBar">
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>
