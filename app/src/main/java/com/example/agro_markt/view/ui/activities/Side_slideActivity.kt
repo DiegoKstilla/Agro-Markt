@@ -28,7 +28,7 @@ class side_slideActivity : AppCompatActivity() {
 
         val animation = AnimationUtils.loadAnimation(this, R.anim.side_slide)
         binding.ivSideSlide.startAnimation(animation)
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
 
         animation.setAnimationListener(object: Animation.AnimationListener{
             override fun onAnimationStart(animation: Animation?) {

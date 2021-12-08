@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+
+    //Firebase adds
+
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -52,4 +56,24 @@ dependencies {
 
     // Se añade la depenencia de RecyclerView
     api 'androidx.recyclerview:recyclerview:1.2.1'
+
+    // Añadimos la dependencia para google maps
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+
+    // Añadimos la dependencia para openstreetMap
+
+    implementation 'org.osmdroid:osmdroid-android:6.1.10'
+
+    //Firebase Adds
+
+    implementation 'com.google.firebase:firebase-bom:29.0.1'
+    implementation 'com.google.firebase:firebase-analytics-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.0'
+    implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
+
+
+    //Dependencia de picasso
+    implementation "com.squareup.picasso:picasso:2.8"
+
 }
