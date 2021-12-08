@@ -16,4 +16,8 @@
     <dimen name="signInEdit">15dp</dimen>
     <dimen name="textSmall">15sp</dimen>
     <dimen name="redirectLogin">10sp</dimen>
+    <dimen name="sizeNameProduct">20sp</dimen>
+    <dimen name="sizePriceProduct">16sp</dimen>
+    <dimen name="heightImageProduct">200dp</dimen>
+    <dimen name="textSizeContent">15sp</dimen>
 </resources>

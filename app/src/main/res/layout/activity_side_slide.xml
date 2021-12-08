@@ -11,7 +11,7 @@
         android:id="@+id/ivSideSlide"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        android:src="@drawable/logo_intro"
+        android:src="@drawable/icono_intro"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

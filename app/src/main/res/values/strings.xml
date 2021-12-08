@@ -34,8 +34,21 @@
     <string name="accountMenu">Cuenta</string>
     <string name="publishText">Publicar</string>
     <string name="publishMenu">Publicar</string>
-    <string name="welcomeAccount">Bienvenido, ________</string>
+    <string name="welcomeAccount">Bienvenido, Diego</string>
     <string name="accountName">Nombre: </string>
     <string name="socialReason">Razón Social: </string>
     <string name="storeGrade">Calificacion de vendedor: </string>
+    <string name="city">Ciudad: </string>
+    <string name="hintName">Nombre</string>
+    <string name="hintAddress">Dirección</string>
+    <string name="hintPhone">Telefono</string>
+    <string name="hintEmail">Correo Electronico</string>
+    <string name="btSaveChanges">Guardar cambios</string>
+    <string name="SReason">Razón Social</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="storeDescription">Descripcion de tu tienda</string>
+    <string name="lechugaCrespa">Lechuga crespa</string>
+    <string name="priceLettuce">$ 2000 / libra</string>
+    <string name="productDescription">La lechuga es una hortaliza consumida a nivel mundial y cuyo cultivo se ha extendido de forma asombrosa. Las partes más importantes de la lechuga son las hojas, las cuales tiene un alto contenido en fibra, Su sabor fresco combina con casi todos los ingredientes de las ensaladas</string>
+    <string name="btAddProduct">Agregar al carrito</string>
 </resources>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgroMarkt">
         <activity
+            android:name=".view.ui.activities.PhoneAuthActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.ui.activities.LoginActivity"
             android:exported="false" />
         <activity
