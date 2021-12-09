@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".view.ui.fragments.AccountFragment">
 
-
     <TextView
         android:id="@+id/tvAccount"
         android:layout_width="match_parent"
@@ -81,9 +80,9 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btEdit"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="88dp"
@@ -100,9 +99,9 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btSavedProducts"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="96dp"
@@ -116,12 +115,12 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/btPurchases" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btProductsOnSale"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="88dp"
@@ -135,12 +134,12 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/btConfig" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btConfig"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="88dp"
@@ -153,12 +152,12 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/btPaymentOpt" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btPaymentOpt"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="88dp"
@@ -171,12 +170,12 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/btSavedProducts" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btPurchases"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:layout_marginStart="90dp"
@@ -189,7 +188,26 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btEdit" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="88dp"
+        android:background="@drawable/exit_sesion"
+        android:elevation="3dp"
+        android:fontFamily="@font/rubik_variablefont_wght"
+        android:text="Cerrar Sesion"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btProductsOnSale"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

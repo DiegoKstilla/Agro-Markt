@@ -7,16 +7,37 @@
     tools:context=".view.ui.fragments.NotificationsFragment">
 
     <TextView
-        android:id="@+id/text_notifications"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/notifications_message"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/rubik_variablefont_wght"
+        android:textSize="@dimen/textPrimarySize"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/next_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:fontFamily="@font/rubik_variablefont_wght"
+        android:textSize="@dimen/textPrimarySize"
+        android:textColor="@color/primaryDarkColor"
+        android:textStyle="bold"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

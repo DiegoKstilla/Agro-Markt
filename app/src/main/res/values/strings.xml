@@ -51,4 +51,9 @@
     <string name="priceLettuce">$ 2000 / libra</string>
     <string name="productDescription">La lechuga es una hortaliza consumida a nivel mundial y cuyo cultivo se ha extendido de forma asombrosa. Las partes más importantes de la lechuga son las hojas, las cuales tiene un alto contenido en fibra, Su sabor fresco combina con casi todos los ingredientes de las ensaladas</string>
     <string name="btAddProduct">Agregar al carrito</string>
+    <string name="filter">Filter</string>
+    <string name="notifications_message">Visualiza aqui las notificaciones y tus mensajes</string>
+    <string name="next_notification">Por ahora no hay nada que ver aqui</string>
+    <string name="publishMessage">Presiona el boton y publica tu primer producto agropercuario</string>
+    <string name="btpublish">Boton Publicar</string>
 </resources>
