@@ -56,4 +56,5 @@
     <string name="next_notification">Por ahora no hay nada que ver aqui</string>
     <string name="publishMessage">Presiona el boton y publica tu primer producto agropercuario</string>
     <string name="btpublish">Boton Publicar</string>
+    <string name="imageAccount">ImageAccount</string>
 </resources>

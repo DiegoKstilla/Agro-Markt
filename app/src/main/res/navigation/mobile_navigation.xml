@@ -49,9 +49,10 @@
         android:name="com.example.agro_markt.view.ui.fragments.AccountFragment"
         android:label="@string/accountMenu"
         tools:layout="@layout/fragment_account">
+
         <action
-            android:id="@+id/action_navigation_account_to_accountDetailDialog"
-            app:destination="@id/accountDetailDialog" />
+            android:id="@+id/action_navigation_account_to_navigation_accountDetailDialog"
+            app:destination="@id/navigation_accountDetailDialog" />
     </fragment>
 
     <fragment
@@ -67,10 +68,21 @@
             app:destination="@id/publishDetailDialog" />
     </fragment>
 
-    <dialog
-        android:id="@+id/accountDetailDialog"
-        android:label="AccountDetailDialog"
-        tools:layout="@layout/fragment_account_detail_dialog"/>
+    <fragment
+        android:id="@+id/navigation_accountDetailDialog"
+        android:name="com.example.agro_markt.view.ui.fragments.AccountDetailDialogFragment"
+        android:label="AccountDetailFragmentDialog"
+        tools:layout="@layout/fragment_account_detail_dialog">
+
+        <action
+            android:id="@+id/action_navigation_accountDetailDialog_to_navigation_account"
+            app:destination="@id/navigation_account" />
+    </fragment>
+
+<!--    <dialog-->
+<!--        android:id="@+id/accountDetailDialog"-->
+<!--        android:label="AccountDetailDialog"-->
+<!--        tools:layout="@layout/fragment_account_detail_dialog"/>-->
     <dialog
         android:id="@+id/dashboardDetailDialog"
         android:label="DashboardDetailDialog"

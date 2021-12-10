@@ -9,8 +9,7 @@ import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import com.example.agro_markt.R
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
@@ -32,7 +31,7 @@ class AccountFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val button = view.findViewById<Button>(R.id.btEdit)
         button?.setOnClickListener{
-            findNavController().navigate(R.id.dashboardDetailDialog, null)
+            findNavController().navigate(R.id.navigation_accountDetailDialog, null)
         }
     }
 
@@ -44,15 +43,5 @@ class AccountFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_account, container, false)
     }
 
-    companion object {
 
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            AccountFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
-    }
 }
