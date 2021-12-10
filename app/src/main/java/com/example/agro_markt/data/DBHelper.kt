@@ -65,4 +65,6 @@ class DBHelper(context: FragmentActivity?) :
         db.close()
     }
 
+    //ready
+
 }
