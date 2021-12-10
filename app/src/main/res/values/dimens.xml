@@ -2,4 +2,22 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cardLayoutMargin">10dp</dimen>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">1dp</dimen>
+    <dimen name="textPrimarySize">15sp</dimen>
+    <dimen name="textPrimaryLayoutMargin">10sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="DefaultLayoutMargin">20dp</dimen>
+    <dimen name="textMedium">20sp</dimen>
+    <dimen name="icon_signInLayoutMargin">6dp</dimen>
+    <dimen name="signInEdit">15dp</dimen>
+    <dimen name="textSmall">15sp</dimen>
+    <dimen name="redirectLogin">10sp</dimen>
+    <dimen name="sizeNameProduct">20sp</dimen>
+    <dimen name="sizePriceProduct">16sp</dimen>
+    <dimen name="heightImageProduct">200dp</dimen>
+    <dimen name="textSizeContent">15sp</dimen>
 </resources>

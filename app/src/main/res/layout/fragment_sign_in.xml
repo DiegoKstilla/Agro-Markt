@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.ui.fragments.SignInFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/tb_signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/newUserString"
+                android:textColor="@color/secondaryLightColor"
+                android:textStyle="bold"
+                android:textSize="@dimen/textMedium"
+                android:gravity="start">
+            </TextView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/add_user"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/icon_signInLayoutMargin">
+
+            </ImageView>
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="?attr/actionBarSize">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcomeAppNewUser"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginTop="20dp"
+                    android:justificationMode="inter_word">
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nameSignIn"
+                    android:layout_marginTop="@dimen/signInEdit"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textSize="@dimen/textSmall"
+                    android:inputType="text"
+                    android:autofillHints="name">
+                </EditText>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lastNameSignIn"
+                    android:layout_marginTop="@dimen/signInEdit"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textSize="@dimen/textSmall"
+                    android:inputType="text"
+                    android:autofillHints="name">
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:layout_marginTop="@dimen/signInEdit"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textSize="@dimen/textSmall"
+                    android:inputType="textEmailAddress"
+                    android:autofillHints="emailAddress">
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/PasswordIntro"
+                    android:layout_marginTop="@dimen/signInEdit"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textSize="@dimen/textSmall"
+                    android:inputType="textPassword"
+                    android:autofillHints="password">
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/IDSignIn"
+                    android:layout_marginTop="@dimen/signInEdit"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textSize="@dimen/textSmall"
+                    android:inputType="number">
+                </EditText>
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/my_button_up"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:text="@string/btnSignIn"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alreadyAccount"
+                    android:gravity="center"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:textSize="15sp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_variablefont_wght"
+                    android:text="@string/redirectLogin"
+                    android:textSize="@dimen/redirectLogin"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/primaryLightColor"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

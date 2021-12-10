@@ -10,7 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgroMarkt">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.ui.activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ui.activities.side_slideActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+            <!-- Esta linea anterior se agrega para que al ejecutar la actividad de animacion de splashscreen no se vea el actionBar -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ui.activities.MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>

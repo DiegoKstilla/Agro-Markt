@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "120090795888",
+    "project_id": "agro-markt",
+    "storage_bucket": "agro-markt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120090795888:android:7c85cf8bf2610d6d10b9b5",
+        "android_client_info": {
+          "package_name": "com.example.agro_markt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120090795888-rqbc4p47vs08ea67dkhm8oua5gatl8tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agro_markt",
+            "certificate_hash": "022976b029a593a4688b8ce0f97b54b52dc8d541"
+          }
+        },
+        {
+          "client_id": "120090795888-uj8acht3b31vv6ctndbnkjmef4t5s88h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBvcfdS2A2Gmw6pqjF_bB9rXP_f3KxwjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120090795888-uj8acht3b31vv6ctndbnkjmef4t5s88h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
